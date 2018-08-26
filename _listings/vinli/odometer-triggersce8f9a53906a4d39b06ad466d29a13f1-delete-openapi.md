@@ -1,0 +1,60 @@
+---
+swagger: "2.0"
+x-collection-name: Vinli
+x-complete: 0
+info:
+  title: Vinli Delete an Odometer Trigger
+  description: Delete an odometer trigger.
+  version: 1.0.0
+host: events.vin.li
+basePath: /api/v1
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /odometer_triggers/ce8f9a53-906a-4d39-b06a-d466d29a13f1:
+    get:
+      summary: Get an Odometer Trigger
+      description: Get an odometer trigger.
+      operationId: OdometerTriggersCe8f9a53906a4d39B06aD466d29a13f1Get
+      x-api-path-slug: odometer-triggersce8f9a53906a4d39b06ad466d29a13f1-get
+      parameters:
+      - in: header
+        name: Accept
+      responses:
+        200:
+          description: OK
+      tags:
+      - Odometer
+      - Trigger
+    delete:
+      summary: Delete an Odometer Trigger
+      description: Delete an odometer trigger.
+      operationId: OdometerTriggersCe8f9a53906a4d39B06aD466d29a13f1Delete
+      x-api-path-slug: odometer-triggersce8f9a53906a4d39b06ad466d29a13f1-delete
+      parameters:
+      - in: header
+        name: Accept
+      responses:
+        200:
+          description: OK
+      tags:
+      - Odometer
+      - Trigger
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---
