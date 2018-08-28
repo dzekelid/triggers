@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: ""
 tags: Triggers
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/gitlab/apis.md
 specificationVersion: "0.14"
 apis:
@@ -121,6 +121,90 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/gitlab/v3projectsidrefreftriggerbuilds-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/gitlab/v3projectsidrefreftriggerbuilds-post-openapi.md
+- name: API title - Post Projects (ref Ref )trigger Builds
+  x-api-slug: v3projectsidrefreftriggerbuilds-post
+  description: Post projects (ref ref )trigger builds.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png
+  humanURL: http://gitlab.com
+  baseURL: https://localhost:3000//api
+  tags: Orchestration, Code, Static, Versions, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/gitlab/v3projectsidrefreftriggerbuilds-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/gitlab/v3projectsidrefreftriggerbuilds-post-openapi.md
+- name: API title - Post Projects (ref Ref )trigger Builds
+  x-api-slug: v3projectsidrefreftriggerbuilds-post
+  description: Post projects (ref ref )trigger builds.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png
+  humanURL: http://gitlab.com
+  baseURL: https://localhost:3000//api
+  tags: Orchestration, Code, Static, Versions, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/gitlab/v3projectsidrefreftriggerbuilds-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/gitlab/v3projectsidrefreftriggerbuilds-post-openapi.md
+- name: API title - Post Projects (ref Ref )trigger Builds
+  x-api-slug: v3projectsidrefreftriggerbuilds-post
+  description: Post projects (ref ref )trigger builds.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png
+  humanURL: http://gitlab.com
+  baseURL: https://localhost:3000//api
+  tags: Orchestration, Code, Static, Versions, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/gitlab/v3projectsidrefreftriggerbuilds-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/gitlab/v3projectsidrefreftriggerbuilds-post-openapi.md
+- name: API title - Post Projects Services Slack Slash Commands Trigger
+  x-api-slug: v3projectsidservicesslack-slash-commandstrigger-post
+  description: Post projects services slack slash commands trigger.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png
+  humanURL: http://gitlab.com
+  baseURL: https://localhost:3000//api
+  tags: Orchestration, Code, Static, Versions, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/gitlab/v3projectsidservicesslack-slash-commandstrigger-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/gitlab/v3projectsidservicesslack-slash-commandstrigger-post-openapi.md
+- name: API title - Post Projects Services Slack Slash Commands Trigger
+  x-api-slug: v3projectsidservicesslack-slash-commandstrigger-post
+  description: Post projects services slack slash commands trigger.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png
+  humanURL: http://gitlab.com
+  baseURL: https://localhost:3000//api
+  tags: Orchestration, Code, Static, Versions, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/gitlab/v3projectsidservicesslack-slash-commandstrigger-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/gitlab/v3projectsidservicesslack-slash-commandstrigger-post-openapi.md
+- name: API title - Post Projects Services Mattermost Slash Commands Trigger
+  x-api-slug: v3projectsidservicesmattermost-slash-commandstrigger-post
+  description: Post projects services mattermost slash commands trigger.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png
+  humanURL: http://gitlab.com
+  baseURL: https://localhost:3000//api
+  tags: Orchestration, Code, Static, Versions, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/gitlab/v3projectsidservicesmattermost-slash-commandstrigger-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/gitlab/v3projectsidservicesmattermost-slash-commandstrigger-post-openapi.md
+- name: API title - Post Projects Services Mattermost Slash Commands Trigger
+  x-api-slug: v3projectsidservicesmattermost-slash-commandstrigger-post
+  description: Post projects services mattermost slash commands trigger.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png
+  humanURL: http://gitlab.com
+  baseURL: https://localhost:3000//api
+  tags: Orchestration, Code, Static, Versions, Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/gitlab/v3projectsidservicesmattermost-slash-commandstrigger-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/gitlab/v3projectsidservicesmattermost-slash-commandstrigger-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://github.api.gallery.streamdata.io

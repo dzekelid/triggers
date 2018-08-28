@@ -8,11 +8,99 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postma
 x-kinRank: "8"
 x-alexaRank: "87545"
 tags: Triggers
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/postmark/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Postmark - Get Triggers Inboundrules
+  x-api-slug: triggersinboundrules-get
+  description: Get triggers inboundrules.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://spamcheck.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/postmark/triggersinboundrules-get-openapi.md
+- name: Postmark - Post Triggers Inboundrules
+  x-api-slug: triggersinboundrules-post
+  description: Post triggers inboundrules.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://spamcheck.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/postmark/triggersinboundrules-post-openapi.md
+- name: Postmark - Delete Triggers Inboundrules Trigger
+  x-api-slug: triggersinboundrulestriggerid-delete
+  description: Delete triggers inboundrules trigger.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://spamcheck.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/postmark/triggersinboundrulestriggerid-delete-openapi.md
+- name: Postmark - Get Triggers Tags
+  x-api-slug: triggerstags-get
+  description: Get triggers tags.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://spamcheck.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/postmark/triggerstags-get-openapi.md
+- name: Postmark - Post Triggers Tags
+  x-api-slug: triggerstags-post
+  description: Post triggers tags.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://spamcheck.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/postmark/triggerstags-post-openapi.md
+- name: Postmark - Delete Triggers Tags Trigger
+  x-api-slug: triggerstagstriggerid-delete
+  description: Delete triggers tags trigger.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://spamcheck.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/postmark/triggerstagstriggerid-delete-openapi.md
+- name: Postmark - Get Triggers Tags Trigger
+  x-api-slug: triggerstagstriggerid-get
+  description: Get triggers tags trigger.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://spamcheck.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/postmark/triggerstagstriggerid-get-openapi.md
+- name: Postmark - Put Triggers Tags Trigger
+  x-api-slug: triggerstagstriggerid-put
+  description: Put triggers tags trigger.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/638-postmark.jpg
+  humanURL: http://postmarkapp.com
+  baseURL: https://spamcheck.postmarkapp.com//
+  tags: Target, Imports, Stack Network, Technology, SaaS, Emails, Messages, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/postmark/triggerstagstriggerid-put-openapi.md
 x-common:
 - type: x--net-library
   url: http://developer.postmarkapp.com/developer-official-libs.html#dot-net

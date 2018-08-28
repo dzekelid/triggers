@@ -10,11 +10,79 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Triggers
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/aws-codecommit/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS CodeCommit API - Get Repository Triggers
+  x-api-slug: actiongetrepositorytriggers-get
+  description: Gets information about triggers configured for a repository.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
+  humanURL: https://aws.amazon.com/codecommit/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/aws-codecommit/actiongetrepositorytriggers-get-openapi.md
+- name: AWS CodeCommit API - Put Repository Triggers
+  x-api-slug: actionputrepositorytriggers-get
+  description: Replaces all triggers for a repository.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
+  humanURL: https://aws.amazon.com/codecommit/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/aws-codecommit/actionputrepositorytriggers-get-openapi.md
+- name: AWS CodeCommit API - Test Repository Triggers
+  x-api-slug: actiontestrepositorytriggers-get
+  description: Tests the functionality of repository triggers by sending information
+    to the trigger target.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
+  humanURL: https://aws.amazon.com/codecommit/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/aws-codecommit/actiontestrepositorytriggers-get-openapi.md
+- name: AWS CodeCommit API - Get Repository Triggers
+  x-api-slug: actiongetrepositorytriggers-get
+  description: Gets information about triggers configured for a repository.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
+  humanURL: https://aws.amazon.com/codecommit/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/aws-codecommit/actiongetrepositorytriggers-get-openapi.md
+- name: AWS CodeCommit API - Put Repository Triggers
+  x-api-slug: actionputrepositorytriggers-get
+  description: Replaces all triggers for a repository.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
+  humanURL: https://aws.amazon.com/codecommit/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/aws-codecommit/actionputrepositorytriggers-get-openapi.md
+- name: AWS CodeCommit API - Test Repository Triggers
+  x-api-slug: actiontestrepositorytriggers-get
+  description: Tests the functionality of repository triggers by sending information
+    to the trigger target.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Developer-Tools_AWSCodeCommit.png
+  humanURL: https://aws.amazon.com/codecommit/
+  baseURL: :///
+  tags: Amazon Web Services, SDK, Orchestration, Stack Network, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/aws-codecommit/actiontestrepositorytriggers-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.codebuild.api.gallery.streamdata.io

@@ -7,11 +7,23 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apic
 x-kinRank: "7"
 x-alexaRank: "876355"
 tags: Triggers
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/apica/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Alerts API - Triggered Alerts
+  x-api-slug: alertstriggered-get
+  description: Get a list of all triggered alerts on your account, per subject (device
+    or service) or per alert config.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19004-apica.jpg
+  humanURL: https://www.apicasystem.com
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, Testing, Performance, SaaS, Technology, Enterprise, API Provider,
+    Profiles, Service API, Relative Data, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/apica/alertstriggered-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://apica.api.gallery.streamdata.io

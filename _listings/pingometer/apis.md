@@ -7,11 +7,23 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18847-ping
 x-kinRank: "8"
 x-alexaRank: "1995680"
 tags: Triggers
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/pingometer/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Alerts API - Triggered Alerts
+  x-api-slug: alertstriggered-get
+  description: Get a list of all triggered alerts on your account, per subject (device
+    or service) or per alert config.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18847-pingometer.jpg
+  humanURL: https://pingometer.com/
+  baseURL: ://api.serverdensity.io./
+  tags: Monitoring, Performance, Stack Network, SaaS, Technology, internet, Relative
+    Data, Service API, Relative StreamRank, Streams
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/triggers/master/_listings/pingometer/alertstriggered-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://pingdom.api.gallery.streamdata.io

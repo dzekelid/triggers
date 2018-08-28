@@ -137,6 +137,31 @@ paths:
       - Slash
       - Commands
       - Trigger
+  /v3/projects/{id}/(ref/{ref}/)trigger/builds:
+    post:
+      summary: Post Projects (ref Ref )trigger Builds
+      description: Post projects (ref ref )trigger builds.
+      operationId: postV3ProjectsId(refRef)triggerBuilds
+      x-api-path-slug: v3projectsidrefreftriggerbuilds-post
+      parameters:
+      - in: path
+        name: id
+        description: The ID of a project
+      - in: path
+        name: ref
+        description: The commit sha or name of a branch or tag
+      - in: formData
+        name: token
+        description: The unique token of trigger
+      responses:
+        200:
+          description: OK
+      tags:
+      - Projects
+      - (ref
+      - Ref
+      - )trigger
+      - Builds
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
